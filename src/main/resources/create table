@@ -1,0 +1,8 @@
+create table coffee_maker
+(
+	id serial primary key,
+	coffee_maker text not null,
+	coffee_beverage text not null,
+	beg_work timestamp,
+	end_work timestamp
+);
